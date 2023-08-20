@@ -1,0 +1,16 @@
+{
+    "mqtt": {
+        "host": "some-host",
+        "port": 1883,
+        "username": "user",
+        "password": "pass",
+        "topics": [
+            "docker/images"
+        ]
+    },
+    "triggers": {
+        "/path/to/your/stack/docker-compose.yaml": [
+            "debian:bullseye-slim"
+        ]
+    }
+}
