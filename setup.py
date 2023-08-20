@@ -13,6 +13,7 @@ setup(
     author='TheClockTwister',
     description='A python CLI tool to update stacks on event triggers',
     long_description=long_description,
+    long_description_content_type="text/markdown",
     packages=find_packages(),
     install_requires=['click', 'colorama', 'paho-mqtt'],
     entry_points={  # CLI scripts
